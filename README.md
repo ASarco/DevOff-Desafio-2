@@ -7,6 +7,19 @@ En mi caso cuento los espacios tanto al encriptar como al desencriptar.
 
 Agregar el comando  `mvn spring-boot:run` a bash
 
+Se pueden llamar a los endpoints con POST a: 
+```
+http://DevOff-Desafio-2.asarco.repl.co/crypt/encrypt 
+http://DevOff-Desafio-2.asarco.repl.co/crypt/decrypt
+```
+y pasando un payload por ejemplo:
+```
+{
+    "vueltas": 4,
+    "mensaje": "Devoff se puso ATR  "
+}
+```
+
 ---
  
 
