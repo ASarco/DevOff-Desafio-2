@@ -27,9 +27,6 @@ class Crypter {
             cols: Int,
             rows: Int): String {
 
-        //matrix.forEach { arr -> arr.forEach { chr -> println("Element: ${chr.toString()}") } }
-
-
         for (row in 0 until rows) {
             for (col in 0 until cols) {
                 val i = row * cols + col
