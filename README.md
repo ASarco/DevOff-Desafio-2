@@ -1,3 +1,14 @@
+##Mi solución:
+
+Para ahorrarme un paso al crear la matriz y luego transponerla, la armo directamente transpuesta, y luego simplemente la recorro para obtener el string final.
+En mi caso cuento los espacios tanto al encriptar como al desencriptar. 
+Eso me confundió durante bastante tiempo porque en el ejemplo que ponen falta un espacio, y al usar ese ejemplo en mis tests, el desencriptado no funcionaba.
+
+---
+ 
+
+
+
 ![](https://static-cdn.jtvnw.net/jtv_user_pictures/fb425ddf-5e67-4c84-9210-8065809675f7-profile_banner-480.png)
 
 # Desafío 2 - 02/08/2020
