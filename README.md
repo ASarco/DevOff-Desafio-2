@@ -1,4 +1,4 @@
-##Mi solución:
+## Mi solución:
 
 Para ahorrarme un paso al crear la matriz y luego transponerla, la armo directamente transpuesta, y luego simplemente la recorro para obtener el string final.
 En mi caso cuento los espacios tanto al encriptar como al desencriptar. 
