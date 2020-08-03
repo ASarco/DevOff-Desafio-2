@@ -8,13 +8,13 @@ internal class CrypterTest {
 
     @Test
     fun testEncrypt() {
-        val result = crypter.encrypt(Ask(4, "Devoff se puso ATR"))
-        Assertions.assertEquals(Response("DfesTef oRv p osuA"), result)
+        val result = crypter.encrypt(Ask(4, "Devoff se puso ATR  "))
+        Assertions.assertEquals(Response("DfesTef oRv p  osuA "), result)
     }
 
     @Test
     fun testDecrypt() {
-        val result = crypter.decrypt(Ask(4, "DfesTef oRv p osuA"))
-        Assertions.assertEquals(Response("Devoff se puso ATR"), result)
+        val result = crypter.decrypt(Ask(4, "DfesTef oRv p  osuA "))
+        Assertions.assertEquals(Response("Devoff se puso ATR  "), result)
     }
 }

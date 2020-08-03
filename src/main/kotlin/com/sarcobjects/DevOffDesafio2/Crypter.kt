@@ -27,7 +27,7 @@ class Crypter {
             cols: Int,
             rows: Int): String {
 
-        matrix.forEach { arr -> arr.forEach { println(it) } }
+        //matrix.forEach { arr -> arr.forEach { chr -> println("Element: ${chr.toString()}") } }
 
 
         for (row in 0 until rows) {
@@ -36,7 +36,7 @@ class Crypter {
                 matrix[col][row] = if (i <= mensaje.lastIndex) mensaje[i].toString() else ""
             }
         }
-        return matrix.joinToString("") { a -> a.joinToString("") { c -> c.toString() } }
+        return matrix.joinToString("") { a -> a.joinToString("") { c -> c } }
     }
 
     private fun calculateRows(mensaje: String, vueltas: Int): Int {
