@@ -33,7 +33,7 @@ class Crypter {
                 matrix[col][row] = if (i <= mensaje.lastIndex) mensaje[i].toString() else ""
             }
         }
-        return matrix.joinToString("") { a -> a.joinToString("") { c -> c } }
+        return matrix.joinToString("") { a -> a.joinToString("") { c -> c } } .trim()
     }
 
     private fun calculateRows(mensaje: String, vueltas: Int): Int {

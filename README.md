@@ -2,7 +2,10 @@
 
 Para ahorrarme un paso al crear la matriz y luego transponerla, la armo directamente transpuesta, y luego simplemente la recorro para obtener el string final.
 En mi caso cuento los espacios tanto al encriptar como al desencriptar. 
-Eso me confundió durante bastante tiempo porque en el ejemplo que ponen falta un espacio, y al usar ese ejemplo en mis tests, el desencriptado no funcionaba.
+
+#### Para desplegar en repl.it:
+
+Agregar el comando  `mvn spring-boot:run` a bash
 
 ---
  
